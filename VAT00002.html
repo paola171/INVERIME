@@ -1,0 +1,582 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- bootstrap dhis2 -->
+<script src="../dhis-web-commons/bootstrap/js/bootstrap.min.js" type="text/javascript">
+</script>
+<link href="../dhis-web-commons/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="../dhis-web-commons/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" /><!-- bootstrap web -->
+<!-- <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script> -->
+<style type="text/css">
+    .TittleColor {
+        text-align: center;
+    }
+
+    .Element {
+        text-align: left;
+        height: 55px;
+        padding: 1% 0;
+        color: #000000;
+    }
+
+    .textNum1 {
+        width: 80px;
+        padding: 3px;
+    }
+
+    .textArea {
+        text-align: left;
+        height: 55px;
+        width: 150%;
+        padding: 1% 0;
+    }
+
+    .textFecha {
+        width: 100px;
+        padding: 3px;
+    }
+
+    .textinput {
+        width: 40%;
+        padding: 3px;
+    }
+
+    .textcombo {
+        padding: 3px;
+    }
+
+    .ColorSubTittle1 {
+        color: #3e5050;
+        background-color: #00A53A;
+    }
+
+    .ColorSubTittle2 {
+        color: #22201c;
+        background-color: #d1e5ee;
+    }
+
+    .ColorSubTittle3 {
+        color: #615e57;
+        background-color: #eee4d1;
+    }
+
+    hr {
+        border: 1px inset #eee;
+        height: 1px;
+        width: 100%;
+    }
+</style>
+<div class="row">
+    <div class="col-xs-12">
+        <form class="form-horizontal">
+            <div class="container well well-sm in-line">
+                <div class="jumbotron mt-3" style="background-color: #FDFEFE">
+                    <h3 style="color: #00A53A; align-content: center; text-align: center;"><strong><img alt=""
+                                src="https://ssecpruebas.inverime.com/api/documents/g07Yzgo3I1t/data"
+                                style="width: 130px; height: 130px; float: left;" /></strong></h3>
+
+                    <h3 style="color: #00A53A; align-content: center; text-align: center;"><strong>ESTUDIO
+                            VAT00002</strong></h3>
+
+                    <hr />
+                    <!--Datos del estudio-->
+                    <p class="lead">&nbsp;</p>
+
+                    <h5><span style="font-size:22px;"><strong><b>1. Datos del estudio </b></strong></span></h5>
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #00A53A; color: white; size: 8;">&nbsp;
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-10" size="2"><b>Fecha de inicio del estudio</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-aCWnBkDRt8B-val" name="entryfield"
+                                        title="VAT00002 Fecha de inicio del estudio"
+                                        value="[ VAT00002 Fecha de inicio del estudio ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Fecha de finalizaci&oacute;n del estudio</b>
+                                        &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-ir7qEyHt8HI-val" name="entryfield"
+                                        title="VAT00002 Fecha de finalizacion del estudio"
+                                        value="[ VAT00002 Fecha de finalizacion del estudio ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-10" size="2"><b>Fecha de inicio del enrolamiento</b> &nbsp;
+                                    </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-PujrNTX9sD1-val" name="entryfield"
+                                        title="VAT00002 Fecha de inicio del enrolamiento"
+                                        value="[ VAT00002 Fecha de inicio del enrolamiento ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Fecha de finalizacion del enrolamiento</b>
+                                        &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-c37N3wY2jOn-val" name="entryfield"
+                                        title="VAT00002 Fecha de finalizacion del enrolamiento"
+                                        value="[ VAT00002 Fecha de finalizacion del enrolamiento ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-12" size="2"><b>&iquest;Desea extender la fecha de
+                                            finalizaci&oacute;n del Estudio?</b> &nbsp;&nbsp;&nbsp; </font> <input
+                                        id="rljkEzooypv-H7Y3ReOki4z-val" name="entryfield"
+                                        title="VAT00002 Desea extender la fecha de finalizacion del estudio"
+                                        value="[ VAT00002 Desea extender la fecha de finalizacion del estudio ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Ingrese el n&uacute;mero de d&iacute;as de
+                                            extensi&oacute;n del estudio</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-jkU10zWuO8o-val" name="entryfield"
+                                        title="VAT00002 Ingrese el numero de dias de extension del estudio"
+                                        value="[ VAT00002 Ingrese el numero de dias de extension del estudio ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Nueva fecha de finalizaci&oacute;n del
+                                            Estudio</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-XRtCOxHRs9d-val" name="entryfield"
+                                        title="VAT00002 Nueva fecha de finalización del estudio"
+                                        value="[ VAT00002 Nueva fecha de finalización del estudio ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Ingrese el n&uacute;mero de d&iacute;as de
+                                            extensi&oacute;n del Enrolamiento</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-vR5lb5dLM7y-val" name="entryfield"
+                                        title="VAT00002 Ingrese el numero de dias de extension del enrolamiento"
+                                        value="[ VAT00002 Ingrese el numero de dias de extension del enrolamiento ]" />
+                                </td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Nueva fecha de finalizaci&oacute;n del
+                                            Enrolamiento</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-ITJ9YnuOCUf-val" name="entryfield"
+                                        title="VAT00002 Nueva Fecha de finalizacion del enrolamiento"
+                                        value="[ VAT00002 Nueva Fecha de finalizacion del enrolamiento ]" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--Datos del participante-->
+
+                    <h5><span style="font-size:22px;"><strong><b>2. Datos del Participante</b></strong></span></h5>
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #00A53A; color: white; size: 8;">&nbsp;
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-10" size="2"><b>Grupo</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-PvGf86vlfZ1-val" name="entryfield"
+                                        title="VAT00002 Grupo" value="[ VAT00002 Grupo ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Estado</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-hjN7OyVjd82-val" name="entryfield"
+                                        title="VAT00002 Estado " value="[ VAT00002 Estado  ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-10" size="2"><b>Fecha m&iacute;nima de consentimiento
+                                            informado</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-zWOkzw1sXsz-val" name="entryfield"
+                                        title="VAT00002 Fecha minima de consentimiento informado"
+                                        value="[ VAT00002 Fecha minima de consentimiento informado ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Fecha maxima de consentimiento informado</b>
+                                        &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-N39I0Ohwqk3-val" name="entryfield"
+                                        title="VAT00002 Fecha maxima de consentimiento informado"
+                                        value="[ VAT00002 Fecha maxima de consentimiento informado ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Cumple consentimiento informado</b> &nbsp;
+                                    </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-D3OXOyKTj9M-val" name="entryfield"
+                                        title="VAT00002 Cumple consentimiento informado"
+                                        value="[ VAT00002 Cumple consentimiento informado ]" /></td>
+                                <td colspan="2">
+                                    <font class="col-xs-12" size="2"><b>Fecha de confirmaci&oacute;n de consentimiento
+                                            informado</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-kBduJ553b5S-val" name="entryfield"
+                                        title="VAT00002 Fecha de confirmación de consentimiento informado"
+                                        value="[ VAT00002 Fecha de confirmación de consentimiento informado ]" /></td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Datos de cita clinica -->
+
+                    <h5><span style="font-size:22px;"><strong><b>3. Citas Clinicas</b></strong></span></h5>
+                    <!-- VISITA 1 -->
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #BDECB6; size: 8;">VISITA 1</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&iacute;nima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-oHKxl6g0PyC-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Fecha minima"
+                                        value="[ VAT00002 Visita 1 Fecha minima ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Exacta</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-PxkPCpDYXpC-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Fecha exacta"
+                                        value="[ VAT00002 Visita 1 Fecha exacta ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&aacute;xima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-ernTx4PaCRh-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Fecha maxima"
+                                        value="[ VAT00002 Visita 1 Fecha maxima ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Real</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-rAEpz3mS59y-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Fecha real" value="[ VAT00002 Visita 1 Fecha real ]" />
+                                </td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Hora</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-i7P19NcL0tp-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Hora" value="[ VAT00002 Visita 1 Hora ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Cumplida</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-fBAFb4AXYgw-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Cumplida" value="[ VAT00002 Visita 1 Cumplida ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2"><b>Personsa contactada</b> </font> <input
+                                        id="rljkEzooypv-yWhVBBkBWo8-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Persona contactada"
+                                        value="[ VAT00002 Visita 1 Persona contactada ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Efectos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-kKtVMXmzs77-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Efectos" value="[ VAT00002 Visita 1 Efectos ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Enfermedades</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-Kd99wcUOpha-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Enfermedades"
+                                        value="[ VAT00002 Visita 1 Enfermedades ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Medicamentos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-tC57jOL0xGa-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Medicamentos "
+                                        value="[ VAT00002 Visita 1 Medicamentos  ]" /></td>
+                            </tr>000
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2">
+                                        <b>Nota&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                    </font> <input id="rljkEzooypv-JgUCvmEptUb-val" name="entryfield"
+                                        title="VAT00002 Visita 1 Nota " value="[ VAT00002 Visita 1 Nota  ]" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- VISITA 2 -->
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #BDECB6; size: 8;">VISITA 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&iacute;nima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-sGO6Js1IqL0-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Fecha minima"
+                                        value="[ VAT00002 Visita 2 Fecha minima ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Exacta</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-FoNN8m1CBbL-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Fecha exacta"
+                                        value="[ VAT00002 Visita 2 Fecha exacta ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&aacute;xima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-tkYwyuu2tTv-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Fecha maxima"
+                                        value="[ VAT00002 Visita 2 Fecha maxima ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Real</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-xkmah8bSAwX-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Fecha real" value="[ VAT00002 Visita 2 Fecha real ]" />
+                                </td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Hora</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-RlSYgKH8O1V-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Hora" value="[ VAT00002 Visita 2 Hora ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Cumplida</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-IxrrcPHcPyg-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Cumplida" value="[ VAT00002 Visita 2 Cumplida ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2"><b>Personsa contactada</b> </font> <input
+                                        id="rljkEzooypv-WpyWcMbNeEe-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Persona contactada"
+                                        value="[ VAT00002 Visita 2 Persona contactada ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Efectos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-F4Qec0MJlBE-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Efectos" value="[ VAT00002 Visita 2 Efectos ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Enfermedades</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-IiktxyYlwuH-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Enfermedades"
+                                        value="[ VAT00002 Visita 2 Enfermedades ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Medicamentos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-KddM86bnpC2-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Medicamentos "
+                                        value="[ VAT00002 Visita 2 Medicamentos  ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2">
+                                        <b>Nota&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                    </font> <input id="rljkEzooypv-tfqb66IqQuW-val" name="entryfield"
+                                        title="VAT00002 Visita 2 Nota " value="[ VAT00002 Visita 2 Nota  ]" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- TC1 -->
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #BDECB6; size: 8;">TC1</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&iacute;nima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-EszCtj8cOgY-val" name="entryfield"
+                                        title="VAT00002 TC1 Fecha minima" value="[ VAT00002 TC1 Fecha minima ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Exacta</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-BVQ63X2Q5Nq-val" name="entryfield"
+                                        title="VAT00002 TC1 Fecha exacta" value="[ VAT00002 TC1 Fecha exacta ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&aacute;xima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-bRklRyr7urj-val" name="entryfield"
+                                        title="VAT00002 TC1 Fecha maxima" value="[ VAT00002 TC1 Fecha maxima ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Real</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-LZZL73cM8fT-val" name="entryfield"
+                                        title="VAT00002 TC1 Fecha real" value="[ VAT00002 TC1 Fecha real ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Hora</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-h5fN2UiPZbx-val" name="entryfield"
+                                        title="VAT00002 TC1 Hora" value="[ VAT00002 TC1 Hora ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Cumplida</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-PeOkK82ZuDx-val" name="entryfield"
+                                        title="VAT00002 TC1 Cumplida" value="[ VAT00002 TC1 Cumplida ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2"><b>Personsa contactada</b> </font> <input
+                                        id="rljkEzooypv-ArFbQAicmUG-val" name="entryfield"
+                                        title="VAT00002 TC1 Persona contactada"
+                                        value="[ VAT00002 TC1 Persona contactada ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Efectos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-mUZpA3uUTLN-val" name="entryfield"
+                                        title="VAT00002 TC1 Efectos" value="[ VAT00002 TC1 Efectos ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Enfermedades</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-CJca7GCKXRF-val" name="entryfield"
+                                        title="VAT00002 TC1 Enfermedades" value="[ VAT00002 TC1 Enfermedades ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Medicamentos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-mrdFyntMQo6-val" name="entryfield"
+                                        title="VAT00002 TC1 Medicamentos" value="[ VAT00002 TC1 Medicamentos ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2">
+                                        <b>Nota&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                    </font> <input id="rljkEzooypv-DnRlmzzZVEM-val" name="entryfield"
+                                        title="VAT00002 TC1 Nota " value="[ VAT00002 TC1 Nota  ]" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- VISITA 3 -->
+
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="8" scope="col"
+                                    style="text-align: center; background-color: #BDECB6; size: 8;">VISITA 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&iacute;nima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-C3o8VpvV3ap-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Fecha minima"
+                                        value="[ VAT00002 Visita 3 Fecha minima ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Exacta</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-zZ1IiwKFHRM-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Fecha exacta"
+                                        value="[ VAT00002 Visita 3 Fecha exacta ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha M&aacute;xima</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-HXLtAhqtlQV-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Fecha maxima"
+                                        value="[ VAT00002 Visita 3 Fecha maxima ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Fecha Real</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-dyNqNtwAT8p-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Fecha real" value="[ VAT00002 Visita 3 Fecha real ]" />
+                                </td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Hora</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-Fl2N9twWfLi-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Hora" value="[ VAT00002 Visita 3 Hora ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Cumplida</b> &nbsp; </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-J1ISYyNq118-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Cumplida" value="[ VAT00002 Visita 3 Cumplida ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2"><b>Personsa contactada</b> </font> <input
+                                        id="rljkEzooypv-wA10tplxrKd-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Persona contactada"
+                                        value="[ VAT00002 Visita 3 Persona contactada ]" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Efectos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-ZTZO4DPqrJb-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Efectos" value="[ VAT00002 Visita 3 Efectos ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Enfermedades</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-XDKyJA8usiG-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Enfermedades"
+                                        value="[ VAT00002 Visita 3 Enfermedades ]" /></td>
+                                <td colspan="1">
+                                    <font class="col-xs-10" size="2"><b>Medicamentos</b> </font>
+                                </td>
+                                <td colspan="1"><input id="rljkEzooypv-quTwFBYCpSz-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Medicamentos "
+                                        value="[ VAT00002 Visita 3 Medicamentos  ]" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <font class="col-xs-10" size="2">
+                                        <b>Nota&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                    </font> <input id="rljkEzooypv-j8YzGbz3ekC-val" name="entryfield"
+                                        title="VAT00002 Visita 3 Nota " value="[ VAT00002 Visita 3 Nota  ]" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- fin del contenedor -->
+        </form>
+    </div>
+</div>
